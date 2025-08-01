@@ -1,4 +1,4 @@
-FROM redis
+FROM redis:8.2-rc1-alpine3.22
 
 RUN apt-get update 
 RUN apt-get install -y curl 
